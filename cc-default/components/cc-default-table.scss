@@ -1,4 +1,6 @@
 @import "~@angular/material/theming";
+@import "../cc-default-colors.scss";
+
 @include mat-core();
 
 // efeito do mouse over nas tabelas
