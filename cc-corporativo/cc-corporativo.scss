@@ -6,3 +6,8 @@
 $cc-theme: mat-light-theme($cc-primary, $cc-accent, $cc-warn);
 
 @include angular-material-theme($cc-theme);
+
+@import "../cc-default/components/cc-default-navbar.scss";
+@import "../cc-default/components/cc-default-toolbar.scss";
+@import "../cc-default/components/cc-default-table.scss";
+@import "../cc-default/components/cc-default-breadcrumb.scss";
