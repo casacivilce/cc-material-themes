@@ -89,21 +89,23 @@
     .mat-expansion-panel-body {
       padding: 0 !important;
     }
+  }
 
+  mat-sidenav-content {
     // Ajuste para alinhamento dos itens da toolbar
     .fill-space {
       flex: 1 1 auto;
     }
-  }
 
-  mat-sidenav-content.spaced-sidenav-content {
-    padding-top: 100px;
+    &.spaced-sidenav-content {
+      padding-top: 100px;
 
-    .fixed-header {
-      position: fixed;
-      top: 0;
-      z-index: 999;
-      padding-right: 17px;
+      .fixed-header {
+        position: fixed;
+        top: 0;
+        z-index: 999;
+        padding-right: 17px;
+      }
     }
   }
 }
