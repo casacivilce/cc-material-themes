@@ -1,7 +1,9 @@
 @import "~@angular/material/theming";
+@import "../cc-default-colors.scss";
+
 @include mat-core();
 
-.mat-toolbar.mat-primary {
+.mat-toolbar.mat-primary:not(.cc-breadcrumb) {
   background: white;
   color: mat-color($mat-teal, 800);
 }
