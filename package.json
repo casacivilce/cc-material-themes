@@ -1,6 +1,6 @@
 {
   "name": "@govce/cc-material-themes",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "private": false,
   "devDependencies": {
     "@angular/material": "^6.2.0"
